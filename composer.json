@@ -1,0 +1,28 @@
+{
+    "name": "vangarde/katana",
+    "description": "A Laravel Blade extension to enable DB stored Bladetemplates to be rendered.",
+    "type": "library",
+    "require": {
+        "illuminate/view": "^7.9.2@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick",
+            "email": "patrick@vangar.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {
+            "Vangarde\\Katana\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vangarde\\Katana\\KatanaServiceProvider"
+            ]
+        }
+    }
+}
