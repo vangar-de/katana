@@ -1,6 +1,6 @@
 <?php
 
-namespace Vangarde\Katana;
+namespace \Vangarde\Katana;
 
 use Illuminate\Support\ServiceProvider;
 

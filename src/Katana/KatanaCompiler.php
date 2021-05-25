@@ -1,6 +1,6 @@
 <?php
 
-namespace Vangarde\Katana;
+namespace \Vangarde\Katana;
 
 use Carbon\Carbon;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
