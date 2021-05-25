@@ -1,10 +1,9 @@
 <?php
 
-namespace \Vangarde\Katana;
+namespace Vangarde\Katana;
 
 use Carbon\Carbon;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
-use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\View\Compilers\BladeCompiler;
 use Illuminate\View\Compilers\Concerns\CompilesLayouts;
