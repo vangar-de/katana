@@ -15,7 +15,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-0": {
-            "Vangarde\\Katana\\": "src/"
+            "Vangarde\\Katana\\": "src/Katana"
         }
     },
     "extra": {
